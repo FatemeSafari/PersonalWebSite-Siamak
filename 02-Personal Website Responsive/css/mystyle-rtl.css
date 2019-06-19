@@ -741,7 +741,7 @@ small {
     }
 }
 .progress-bar {
-    animation: fill-progress 9s;
+    animation: fill-progress 6s;
 }
 
 @keyframes fill-progress {
@@ -751,6 +751,6 @@ small {
     }
 
     to {
-        width: 100%;
+        width: "aria-valuemax";
     }
 }

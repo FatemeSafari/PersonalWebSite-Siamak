@@ -755,6 +755,7 @@ small {
     }
 
     to {
-        width: 80%;
+        
+        width:"aria-valuemax";
     }
 }
