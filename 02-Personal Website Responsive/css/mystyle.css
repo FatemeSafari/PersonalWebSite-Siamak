@@ -745,7 +745,7 @@ small {
 }
 
 .progress-bar {
-    animation: fill-progress 7s;
+    animation: fill-progress 6s;
 }
 
 @keyframes fill-progress {
@@ -755,6 +755,6 @@ small {
     }
 
     to {
-        width: 100%;
+        width: 80%;
     }
 }
