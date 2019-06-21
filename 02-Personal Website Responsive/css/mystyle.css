@@ -135,7 +135,7 @@ i.linkedin {
     color: #C6C6C6;
     margin-right: 5px;
 }
-i.dribbble {
+i.globe {
     float: right;
     border: 4px solid #EDEDED;
     background-color: #EDEDED;
@@ -148,7 +148,7 @@ i.dribbble {
 .facebook:hover,
 .twitter:hover,
 .linkedin:hover,
-.dribbble:hover,
+.globe:hover,
 .mteam:hover {
     color: #0c9fb7;
 }
