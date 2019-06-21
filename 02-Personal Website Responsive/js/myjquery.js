@@ -6,4 +6,8 @@ $(window).load(function () {
     $(".se-pre-con").fadeOut("slow");;
 });
 
+// reload on top of the page
+$(document).ready(function () {
+    $("html,body").animate({ scrollTop: 0 }, 50); //50ms for example
+});
 
