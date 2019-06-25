@@ -501,6 +501,7 @@ small {
 }
     #img-projects:hover {
         animation: opacitydelay 2s;
+        cursor:pointer;
     }
 
 @keyframes opacitydelay {
