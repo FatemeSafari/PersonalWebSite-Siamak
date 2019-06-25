@@ -35,10 +35,12 @@ a {
 
 .link:hover {
     color: #0c9fb7 !important;
+    cursor:pointer;
 }
 
 .link2:hover {
     color: #054356da !important;
+    cursor: pointer;
 }
 
 .text-link {
@@ -501,6 +503,7 @@ small {
 
     #img-projects:hover {
         animation: opacitydelay 2s;
+        cursor: pointer;
     }
 
 @keyframes opacitydelay {
