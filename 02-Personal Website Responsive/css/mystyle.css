@@ -37,10 +37,12 @@ a {
 
 .link:hover {
     color: #0c9fb7 !important;
+    cursor: pointer;
 }
 
 .link2:hover {
     color: #054356 !important;
+    cursor: pointer;
 }
 
 .text-link {
