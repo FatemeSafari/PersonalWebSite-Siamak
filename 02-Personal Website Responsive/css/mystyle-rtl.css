@@ -1,4 +1,15 @@
 @import url(responsive-rtl.css);
+@font-face{
+    font-family:'Badr';
+    src:url('font/font/Badr.eot') format('eot'),
+        url('font/font/Badr.woff') format('woff'),
+        url('font/font/Badr.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    font-family: Badr !important;
+}
 .no-js #loader {
     display: none;
 }
