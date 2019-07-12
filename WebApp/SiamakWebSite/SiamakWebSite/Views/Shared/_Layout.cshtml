@@ -1,0 +1,42 @@
+﻿<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Siamak Jalili Personal Website</title>
+    @if (System.Globalization.CultureInfo.CurrentCulture.Name.Contains("en"))
+    {
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/mystyle.css" />
+        <link rel="stylesheet" href="/css/responsive.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libes/modernizr/2.8.2/modernizr.js"></script>
+        <script src="/js/myjquery.js"></script>
+        <script src="/js/jquery-3.3.1.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    }
+    else
+    {
+    <link rel="stylesheet" href="/css/bootstrap.min.rtl.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/mystyle-rtl.css" />
+        <link rel="stylesheet" href="/css/responsive-rtl.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libes/modernizr/2.8.2/modernizr.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libes/modernizr/2.8.2/modernizr.js"></script>
+        <script src="/js/myjquery.js"></script>
+        <script src="/js/jquery-3.3.1.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    }
+
+
+</head>
+
+<body>
+    @RenderBody();
+</body>
+
+</html>
