@@ -17,7 +17,15 @@ namespace SiamakWebSite.Controllers
         [Route("{language?}")]
         public ActionResult Index(string language = "")
         {
-            return View();
+            if (!string.IsNullOrEmpty(language))
+            {
+                ChangeLanguage(language);
+            }
+            if (language=="en")
+            {
+                return View("En");
+            }
+            return View("Fa");
         }
         public void ChangeLanguage(string language)
         {
